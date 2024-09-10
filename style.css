@@ -241,12 +241,12 @@ nav .btn:hover {
   color: #888;
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .testimonial-grid {
     flex-direction: column;
     gap: 20px;
   }
-} */
+}
 
 .image-strip {
   display: flex;
