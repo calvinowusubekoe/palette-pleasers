@@ -374,13 +374,20 @@ nav .btn:hover {
   align-items: center;
   padding-top: 2px;
   border-top: 1px solid #444;
+  /* width: 70; */
 }
+
+/* .social-media {
+  margin-bottom: 5px;
+  border-top: 2px;
+} */
 
 .social-media a {
   color: white;
   font-size: 1.2em;
   margin-right: 10px;
   transition: color 0.3s;
+  margin-left: 20px;
 }
 
 .social-media a:hover {
