@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   overflow-x: 0;
   box-sizing: border-box;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
 }
 
 /* Nav bar Section */
@@ -36,6 +39,10 @@ nav {
   text-decoration: none;
 }
 
+.container h2 {
+  color: #d4581e;
+}
+
 .nav-line:hover {
   color: #fff;
 }
@@ -62,7 +69,7 @@ nav .btn:hover {
 }
 
 .nav-item a {
-  color: #d4581e;
+  color: #f56e30;
 }
 
 /* logo section */
@@ -74,7 +81,7 @@ nav .btn:hover {
 }
 
 #hero {
-  background-image: url(/images/loaded-fries.jpg);
+  background-image: url(./images/loaded-fries.jpg);
   height: 100vh;
   width: 100%;
   background-size: cover;
@@ -90,7 +97,7 @@ nav .btn:hover {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 #hero-title {
@@ -103,6 +110,7 @@ nav .btn:hover {
 #hero-subtext {
   font-size: 50px;
   color: #b33f0a;
+  font-weight: bold;
 }
 
 #hero-button {
@@ -110,14 +118,14 @@ nav .btn:hover {
   width: 10vw;
   color: rgb(238, 229, 229);
   font-size: 15px;
-  background-color: #b33f0a;
+  background-color: #e96813;
   padding: 10px 20px;
   border-radius: 20px;
   border: none;
 }
 
 #hero-button:hover {
-  color: #680c70;
+  color: #ffffff;
 }
 
 /* menu section */
