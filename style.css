@@ -109,7 +109,7 @@ nav .btn:hover {
   size: 20vh;
   width: 10vw;
   color: rgb(238, 229, 229);
-  font-size: 15px;
+  font-size: 20px;
   background-color: #b33f0a;
   padding: 10px 20px;
   border-radius: 20px;
@@ -117,7 +117,8 @@ nav .btn:hover {
 }
 
 #hero-button:hover {
-  color: #680c70;
+  color: #fcfcfc;
+  font-weight: bold;
 }
 
 /* menu section */
@@ -129,6 +130,8 @@ nav .btn:hover {
 .menu h2 {
   text-align: center;
   margin-bottom: 40px;
+  color: #d4581e;
+  font-size: 30px;
 }
 
 .menu-grid {
@@ -292,7 +295,7 @@ nav .btn:hover {
   font-size: 2em;
   margin-bottom: 5px;
   height: 75%;
-  width: 60%;
+  width: 25%;
 }
 
 .foot-logo {
@@ -358,6 +361,7 @@ nav .btn:hover {
     color: white;
     border-radius: 5px;
     cursor: pointer;
+    margin: 10px;
 }
 
 .footer-bottom {
