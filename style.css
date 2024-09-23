@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 @media only screen and (max-width:800px) {
@@ -16,13 +17,19 @@
     width: 100%;
   }
 }
+=======
+>>>>>>> origin/main
 * {
   margin: 0;
   padding: 0;
   overflow-x: 0;
   box-sizing: border-box;
+<<<<<<< HEAD
   font-family: "Lora", serif;
   font-optical-sizing: auto;
+=======
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+>>>>>>> origin/main
 }
 
 /* Nav bar Section */
@@ -52,6 +59,7 @@ nav {
   text-decoration: none;
 }
 .nav-line {
+<<<<<<< HEAD
   text-decoration: none;
 }
 
@@ -61,6 +69,13 @@ nav {
 
 .nav-line:hover {
   color: #fff;
+=======
+    text-decoration: none;
+}
+
+.nav-line:hover {
+    color: #fff;
+>>>>>>> origin/main
 }
 
 nav .contact {
@@ -85,7 +100,11 @@ nav .btn:hover {
 }
 
 .nav-item a {
+<<<<<<< HEAD
   color: #f56e30;
+=======
+  color: #d4581e;
+>>>>>>> origin/main
 }
 
 /* logo section */
@@ -97,7 +116,11 @@ nav .btn:hover {
 }
 
 #hero {
+<<<<<<< HEAD
   background-image: url(./images/loaded-fries.jpg);
+=======
+  background-image: url(https://res.cloudinary.com/dswfnaydo/image/upload/v1726308645/loaded-fries_jrbxtg.jpg);
+>>>>>>> origin/main
   height: 100vh;
   width: 100%;
   background-size: cover;
@@ -113,7 +136,11 @@ nav .btn:hover {
   align-items: center;
   justify-content: center;
   gap: 10px;
+<<<<<<< HEAD
   background-color: rgba(0, 0, 0, 0.7);
+=======
+  background-color: rgba(0, 0, 0, 0.8);
+>>>>>>> origin/main
 }
 
 #hero-title {
@@ -126,22 +153,35 @@ nav .btn:hover {
 #hero-subtext {
   font-size: 50px;
   color: #b33f0a;
+<<<<<<< HEAD
   font-weight: bold;
+=======
+>>>>>>> origin/main
 }
 
 #hero-button {
   size: 20vh;
   width: 10vw;
   color: rgb(238, 229, 229);
+<<<<<<< HEAD
   font-size: 15px;
   background-color: #e96813;
+=======
+  font-size: 20px;
+  background-color: #b33f0a;
+>>>>>>> origin/main
   padding: 10px 20px;
   border-radius: 20px;
   border: none;
 }
 
 #hero-button:hover {
+<<<<<<< HEAD
   color: #ffffff;
+=======
+  color: #fcfcfc;
+  font-weight: bold;
+>>>>>>> origin/main
 }
 
 /* menu section */
@@ -153,6 +193,11 @@ nav .btn:hover {
 .menu h2 {
   text-align: center;
   margin-bottom: 40px;
+<<<<<<< HEAD
+=======
+  color: #d4581e;
+  font-size: 30px;
+>>>>>>> origin/main
 }
 
 .menu-grid {
@@ -275,15 +320,26 @@ nav .btn:hover {
 .image-strip {
   display: flex;
   justify-content: center;
+<<<<<<< HEAD
   margin-top: 65px;
   overflow: hidden;
   background-color: #fff;
   /* padding: 30px 0; */
+=======
+  margin-top: 41px;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 20px 0;
+>>>>>>> origin/main
 }
 
 .image-strip img {
   width: 300px;
+<<<<<<< HEAD
   height: 90px;
+=======
+  height: 100px;
+>>>>>>> origin/main
   object-fit: cover;
   /* margin: 0 10px; */
   /* border-radius: 8px; */
@@ -297,6 +353,7 @@ nav .btn:hover {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+<<<<<<< HEAD
 .strip {
   background-color: #d4581e;
   text-align: center;
@@ -310,6 +367,13 @@ nav .btn:hover {
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 5px;
+=======
+.footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+>>>>>>> origin/main
 }
 
 .footer-content {
@@ -324,7 +388,11 @@ nav .btn:hover {
   font-size: 2em;
   margin-bottom: 5px;
   height: 75%;
+<<<<<<< HEAD
   width: 60%;
+=======
+  width: 25%;
+>>>>>>> origin/main
 }
 
 .foot-logo {
@@ -335,29 +403,46 @@ nav .btn:hover {
 }
 
 .footer-logo p {
+<<<<<<< HEAD
   font-size: 0.9em;
   color: #ddd;
+=======
+    font-size: 0.9em;
+    color: #ddd;
+>>>>>>> origin/main
 }
 
 .footer-links,
 .footer-hours,
 .footer-newsletter {
+<<<<<<< HEAD
   width: 25%;
   margin: 5px;
+=======
+    width: 25%;
+    margin: 5px;
+>>>>>>> origin/main
 }
 
 .footer-links h4,
 .footer-hours h4,
 .footer-newsletter h4 {
+<<<<<<< HEAD
   font-size: 1.2em;
   margin-bottom: 10px;
   color: #fff;
   margin: 20px;
+=======
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #fff;
+>>>>>>> origin/main
 }
 
 .footer-links p,
 .footer-hours p,
 .footer-newsletter p {
+<<<<<<< HEAD
   font-size: 0.9em;
   color: #ddd;
   line-height: 1.6;
@@ -424,4 +509,64 @@ nav .btn:hover {
 .footer-bottom p {
   font-size: 0.9em;
   color: #ddd;
+=======
+    font-size: 0.9em;
+    color: #ddd;
+    line-height: 1.6;
+}
+
+.footer-hours p strong {
+    display: block;
+    font-size: 1em;
+    color: #fff;
+}
+
+.footer-newsletter form {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.newsletter-form input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+.newsletter-form button {
+    padding: 10px;
+    border: none;
+    background-color: #d4581e;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 8px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2px;
+    border-top: 1px solid #444;
+}
+
+.social-media a {
+    color: white;
+    font-size: 1.2em;
+    margin-right: 10px;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #d4581e;
+}
+
+.footer-bottom p {
+    font-size: 0.9em;
+    color: #ddd;
+>>>>>>> origin/main
 }
