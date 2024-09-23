@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
-@media only screen and (max-width:800px) {
+@media screen and (max-width:800px) {
   /* For tablets: */
   .main {
     width: 80%;
@@ -11,10 +11,40 @@
     width: 100%;
   }
 }
-@media only screen and (max-width:500px) {
+@media screen and (max-width:500px) {
   /* For mobile phones: */
   .menu, .main, .right {
     width: 100%;
+  }
+}
+
+/* For small desktops and tablets */
+@media screen and (max-width: 1024px) {
+  /* Adjust the grid, padding, and font sizes here */
+}
+
+/* For tablets in portrait and larger phones */
+@media screen and (max-width: 768px) {
+  /* Further tweaks for mid-sized devices */
+}
+
+/* For small phones */
+@media screen and (max-width: 480px) {
+  /* Adjust button sizes, text, and layout */
+}
+
+@media screen and (max-width: 768px) {
+  #hero-title {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  #hero-title {
+    font-size: 30px;
   }
 }
 
@@ -148,6 +178,13 @@ nav .btn:hover {
   font-weight: bold;
 }
 
+#hero-button {
+  width: 15%;  /* Adjust button size on small screens */
+  padding: 15px;
+  font-size: 20px;
+}
+
+
 #hero-button:hover {
   color: #000000;
   font-weight: bold;
@@ -157,6 +194,12 @@ nav .btn:hover {
 .menu {
   padding: 50px 0;
   background-color: #020202;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
 }
 
 .menu h2 {
