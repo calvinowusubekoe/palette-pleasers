@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -292,7 +308,7 @@ nav .btn:hover {
 .footer .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 5px;
 }
 
@@ -336,6 +352,7 @@ nav .btn:hover {
   font-size: 1.2em;
   margin-bottom: 10px;
   color: #fff;
+  margin: 20px;
 }
 
 .footer-links p,
@@ -365,6 +382,7 @@ nav .btn:hover {
   border-radius: 5px;
   width: 70%;
   margin-right: 10px;
+  margin-top: 10px;
 }
 
 .newsletter-form button {
@@ -374,6 +392,7 @@ nav .btn:hover {
   color: white;
   border-radius: 5px;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 .footer-bottom {
