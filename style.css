@@ -94,7 +94,6 @@ nav .btn:hover {
 }
 
 .nav-item a {
-  color: #f56e30;
   color: #d4581e;
 }
 
@@ -135,22 +134,22 @@ nav .btn:hover {
 
 #hero-subtext {
   font-size: 50px;
-  color: #b33f0a;
+  color: #d4581e;
   font-weight: bold;
 }
 
 #hero-button {
   size: 20vh;
   width: 10vw;
-  color: rgb(238, 229, 229);
+  color: #d4581e;
   padding: 10px 20px;
   border-radius: 20px;
   border: none;
+  font-weight: bold;
 }
 
 #hero-button:hover {
-  color: #ffffff;
-  color: #fcfcfc;
+  color: #000000;
   font-weight: bold;
 }
 
